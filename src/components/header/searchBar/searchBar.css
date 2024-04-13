@@ -1,0 +1,10 @@
+.search-bar {
+    width: 300px;
+    height: 48px;
+    border: none;
+    border-radius: 12px;
+    padding-inline: 20px;
+    font-size: 0.8em;
+    background-color: var(--white);
+    color: var(--secondary);
+}

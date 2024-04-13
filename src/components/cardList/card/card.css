@@ -1,0 +1,52 @@
+.card-wrapper {
+    background-color: var(--secondary);
+    border-radius: 12px;
+    border: 0.6px solid var(--beige);
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    padding: 24px 18px;
+    box-sizing: border-box;
+    margin: 24px;
+}
+
+img {
+    width: 176px;
+    border-radius: 12px;
+}
+
+.album-info-wrap {
+    margin: 12px 0;
+}
+
+.date {
+    font-size: 0.8em;
+    color: #ACA6A6;
+}
+.title {
+    font-size: 1.1em;
+    color: var(--white);
+    margin: 12px 0 8px 0;
+    line-height: 140%;
+}
+.artist {
+    font-size: 1em;
+    color: var(--light-beige);
+    line-height: 130%;
+}
+
+.genre-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genre-item {
+    border: 1px solid var(--yellow);
+    color: var(--yellow);
+    display: flex;
+    align-items: center;
+    font-size: 0.7em;
+    border-radius: 12px;
+    padding: 4px 12px;
+    margin: 2px 2px;
+}

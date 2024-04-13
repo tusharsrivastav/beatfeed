@@ -1,0 +1,23 @@
+.filter-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+}
+
+.filter {
+    height: 36px;
+    padding-inline: 24px;
+    font-size: 0.8em;
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-inline: 12px; 
+    display: flex;
+    align-items: center;   
+}
+
+.filter-active {
+    background-color: var(--yellow);
+    color: var(--primary);
+}
