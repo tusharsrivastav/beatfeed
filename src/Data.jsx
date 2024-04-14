@@ -3320,8 +3320,8 @@ export const musicData = [
     albumTitle: "If I Don't Make It, I Love U",
     albumCoverUrl:
       "//upload.wikimedia.org/wikipedia/en/thumb/e/e6/Still_House_Plants_-_If_I_Don%27t_Make_It%2C_I_Love_U.png/220px-Still_House_Plants_-_If_I_Don%27t_Make_It%2C_I_Love_U.png",
-    genre: [],
-    label: ["Bison"],
+    genre: ["Art-rock"],
+    label: ["Bison-Records"],
   },
   {
     releaseDate: "April12, 2024",
@@ -3343,9 +3343,10 @@ export const musicData = [
     releaseDate: "April12, 2024",
     artistName: "Yoasobi",
     albumTitle: "E-Side 3",
-    albumCoverUrl: "",
+    albumCoverUrl:
+      "//upload.wikimedia.org/wikipedia/en/thumb/0/00/Yoasobi_-_E-Side_3.png/220px-Yoasobi_-_E-Side_3.png",
     genre: [],
-    label: ["Sony-Japan"],
+    label: ["Sony-Music-Japan"],
   },
   {
     releaseDate: "April14, 2024",

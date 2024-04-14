@@ -30,8 +30,7 @@ const CardList = ({ query, filter }) => {
   const searchFilteredMusicData = filteredMusicData.filter((item) => {
     return (
       item.artistName.toLowerCase().includes(query.toLowerCase()) ||
-      item.albumTitle.toLowerCase().includes(query.toLowerCase()) 
-      // item.genre.toLowerCase().includes(query.toLowerCase())
+      item.albumTitle.toLowerCase().includes(query.toLowerCase())
     );
   });
 

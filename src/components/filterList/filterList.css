@@ -4,6 +4,10 @@
     margin: 24px 0;
 }
 
+.primary-filters {
+    display: flex;
+}
+
 .filter {
     height: 36px;
     padding-inline: 24px;
